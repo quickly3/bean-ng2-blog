@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule }  from '@angular/platform-browser';
 
-import { App } from './components/app.component';
 
+import { App } from './components/app.component';
 import { routing } from './routes/app.routing';
 
 // import { ModalModule } from 'ngx-bootstrap/modal';
@@ -10,12 +10,13 @@ import { routing } from './routes/app.routing';
 
 @NgModule({
   bootstrap: [App],
-  declarations: [
-    App
-  ],
   imports: [
     BrowserModule,
     routing
-  ]
+  ],
+  declarations: [
+    App
+  ],
+
 })
 export class AppModule { }

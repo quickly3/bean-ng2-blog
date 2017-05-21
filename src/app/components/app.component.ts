@@ -5,7 +5,6 @@ import { Component, ViewContainerRef } from '@angular/core';
   selector: 'app',
   styleUrls: ['./app.component.scss'],
   template: `
-  	test
     <main [class.menu-collapsed]="isMenuCollapsed" baThemeRun>
       <div class="additional-bg"></div>
       <router-outlet></router-outlet>
