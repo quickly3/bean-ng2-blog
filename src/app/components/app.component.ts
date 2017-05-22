@@ -3,7 +3,7 @@ import { Component, ViewContainerRef } from '@angular/core';
 
 @Component({
   selector: 'app',
-  styleUrls: ['./app.component.scss'],
+  styleUrls: ['../../assets/scss/app.component.scss'],
   template: `
     <main [class.menu-collapsed]="isMenuCollapsed" baThemeRun>
       <div class="additional-bg"></div>
